@@ -1,0 +1,28 @@
+#hero-main {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-container {
+  height: 100%;
+  width: 100%;
+  background: url("../assets/office.jpeg") no-repeat bottom center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.container-overlay:before {
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  background-color: rgba(92, 26, 183, 0.5);
+}
+

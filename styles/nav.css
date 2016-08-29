@@ -1,53 +1,54 @@
-.nav-company {
+.navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
-.nav-company .nav-brand {
+.navbar-custom .navbar-brand {
   font-weight: 700;
 }
 
-.nav-company .nav-brand:focus {
+.navbar-custom .navbar-brand:focus {
   outline: 0;
 }
 
-.nav-company .nav-brand .nav-toggle {
+.navbar-custom .navbar-brand .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
 }
 
-.nav-company .nav-brand .nav-toggle:focus,
-.nav-company .nav-brand .nav-toggle:active {
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
   outline: 0;
 }
 
-.nav-company a {
+.navbar-custom a {
+  color: #fff;
 }
 
-.nav-company .nav li a {
+.navbar-custom .navbar li a {
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out;
 }
 
-.nav-company .nav li a:hover {
+.navbar-custom .navbar li a:hover {
 }
 
-.nav-company .nav li a:focus,
-.nav-company .nav li a:active {
+.navbar-custom .navbar li a:focus,
+.navbar-custom .navbar li a:active {
 }
 
-.nav-company .nav li.active {
+.navbar-custom .navbar li.active {
 }
 
-.nav-company .nav li.active a {
+.navbar-custom .navbar li.active a {
 }
 
-.nav-company .nav li.active a:hover {
+.navbar-custom .navbar li.active a:hover {
 }
 
 @media(min-width:768px) {
-  .nav-company {
+  .navbar-custom {
     padding: 20px 0;
     border-bottom: 0;
     letter-spacing: 1px;
@@ -57,10 +58,10 @@
     transition: background .5s ease-in-out,padding .5s ease-in-out;
   }
 
-  .nav-company.top-nav-collapse {
+  .navbar-custom.top-navbar-collapse {
     padding: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-    background: #000;
+    background: #5C1AB7;
   }
 }
 
