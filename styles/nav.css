@@ -1,0 +1,67 @@
+.nav-company {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255,255,255,.3);
+}
+
+.nav-company .nav-brand {
+  font-weight: 700;
+}
+
+.nav-company .nav-brand:focus {
+  outline: 0;
+}
+
+.nav-company .nav-brand .nav-toggle {
+  padding: 4px 6px;
+  font-size: 16px;
+}
+
+.nav-company .nav-brand .nav-toggle:focus,
+.nav-company .nav-brand .nav-toggle:active {
+  outline: 0;
+}
+
+.nav-company a {
+}
+
+.nav-company .nav li a {
+  -webkit-transition: background .3s ease-in-out;
+  -moz-transition: background .3s ease-in-out;
+  transition: background .3s ease-in-out;
+}
+
+.nav-company .nav li a:hover {
+}
+
+.nav-company .nav li a:focus,
+.nav-company .nav li a:active {
+}
+
+.nav-company .nav li.active {
+}
+
+.nav-company .nav li.active a {
+}
+
+.nav-company .nav li.active a:hover {
+}
+
+@media(min-width:768px) {
+  .nav-company {
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    background: 0 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .nav-company.top-nav-collapse {
+    padding: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    background: #000;
+  }
+}
+
+
