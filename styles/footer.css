@@ -25,6 +25,7 @@
 .footer-list-item {
   margin-top: 2px;
   color: #4c4a4a;
+  cursor: pointer;
 }
 
 @media screen and (max-width : 768px) {

@@ -53,6 +53,9 @@ section {
   padding-bottom: 40px;
 }
 
+.social-icon {
+  cursor: pointer;
+}
 
 /* @media(min-width:768px) { */
 /*   section */
