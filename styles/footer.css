@@ -32,3 +32,12 @@
     width: 90%;
   }
 }
+
+
+.all-rights-reserved {
+  margin: 0 auto;
+  width: 80%;
+  border-top: solid 1px #333;
+  padding-top: 5px;
+  font-size: 12px;
+}
