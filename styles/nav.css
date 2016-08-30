@@ -43,7 +43,7 @@
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
   outline: 0;
-  background-color: #6E1FDD ;
+  background-color: transparent ;
 }
 
 .navbar-custom .nav li.active {
