@@ -1,5 +1,6 @@
 #about-us {
   background-color: #5c1ab7;
+  padding-top: 40px;
 }
 
 
@@ -13,7 +14,7 @@
   height: auto;
   width: auto;
   max-height: 100%;
-  max-width: 94.5%;
+  max-width: 100%;
   margin-top: -30px;
 }
 
@@ -33,9 +34,9 @@
   color: white;
   font-weight: 400;
   text-transform: uppercase;
+  float: left;
   margin-bottom: 0;
   margin-top: 50px;
-  padding-right: 55px;
   text-align: center;
 }
 

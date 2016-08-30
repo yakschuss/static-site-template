@@ -50,6 +50,7 @@ a:focus {
 section {
   height: auto;
   width: auto;
+  padding-bottom: 40px;
 }
 
 
