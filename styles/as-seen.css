@@ -1,0 +1,17 @@
+#as-seen-on {
+  height: 80px;
+  background-color: #5c1ab7;
+}
+
+
+.logos {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logos > img {
+  max-width: 33.3%;
+}
