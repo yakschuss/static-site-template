@@ -1,0 +1,33 @@
+#contact {
+  height: 100%;
+  background-color: #212121;
+
+}
+
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.contact-title-tag .contact-title {
+  color: white;
+}
+
+.contact-info-text {
+  width: 40%;
+  color: #636363;
+  font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+  .contact-info-text {
+    width: 80%;
+  }
+}
+
+
