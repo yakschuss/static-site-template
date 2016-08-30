@@ -5,3 +5,6 @@ generic static homepage design
 HTML/CSS)
 
 TODO: Minify the css/js for roundtrip server requests.
+
+
+Site can be seen [HERE]  (https://static-site-template-jack.herokuapp.com/)
