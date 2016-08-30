@@ -23,6 +23,48 @@
   height:100%;
   display: block;
   z-index:0;
-  background-color: rgba(92, 26, 183, 0.5);
+  background-color: rgba(92, 26, 183, 0.4);
 }
+
+.header-contents-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-hero .header-hero-title {
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.header-info {
+  width: 75%;
+}
+
+.header-info .header-info-paragraph {
+  text-align: center;
+  padding: 20px 20px;
+  color: white;
+  position: relative;
+  font-weight: 100;
+}
+
+
+.header-cta .header-cta-button {
+  color: white;
+  font-weight: 300;
+  background-color: #5c1ab7;
+  width: 150px;
+  height: 35px;
+  position: relative;
+}
+.header-cta .header-cta-button:hover {
+  background-color: #6e1fdd;
+}
+
 
