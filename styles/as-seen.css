@@ -15,3 +15,7 @@
 .logos > img {
   max-width: 33.3%;
 }
+
+.logos .gh {
+  max-width: 15%;
+}
