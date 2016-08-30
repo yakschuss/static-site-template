@@ -1,0 +1,130 @@
+#our-team {
+  padding-bottom: 40px;
+}
+
+.team-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.team-title-tag .team-title {
+}
+
+.team-info-text {
+  width: 40%;
+  color: #636363;
+  font-weight: 200;
+}
+
+@media only screen and (max-width : 768px) {
+  .team-info-text {
+    width: 80%;
+  }
+}
+.team-group {
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+
+.team-list {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.team-member {
+  margin: 0 auto;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #636363;
+}
+
+.team-member-socials {
+  color: #5c1ab7;
+}
+
+@media only screen  and (min-width : 1624px) {
+  .team-list {
+    width: 80%;
+  }
+}
+
+.member-info-group {
+  width: 300px;
+}
+
+
+.team-member .member-info-group {
+  text-align: center;
+}
+.team-member .member-info-group * {
+  margin-top: 10px;
+}
+.team-member-image {
+}
+
+.team-member-name {
+  font-weight: 500;
+  font-size: 25px;
+  color: #5c1ab7;
+}
+.team-member-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #9C3A9C;
+}
+
+.team-member-text {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.team-member-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.riff {
+  background: url('../assets/riffraff.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 120%;
+}
+
+.chainz {
+  background: url('../assets/2chainz.jpeg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 120%;
+}
+
+.nene {
+  background: url('../assets/nene.jpeg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 120%;
+}
+
+.miley {
+  background: url('../assets/miley.jpg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 120%;
+}
+
+

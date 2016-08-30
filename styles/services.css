@@ -7,7 +7,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 
 .services-title-tag .services-title {
@@ -20,9 +20,15 @@
   font-weight: 200;
 }
 
+@media only screen and (max-width : 768px) {
+  .services-info-text {
+    width: 80%;
+  }
+}
+
 .services-group {
   margin-top: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 80px;
 }
 
 .services-list {
