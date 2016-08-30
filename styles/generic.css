@@ -47,4 +47,9 @@ a:focus {
   text-decoration: none;
 }
 
+section {
+  height: 100%;
+  width: 100%;
+}
+
 
