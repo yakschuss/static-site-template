@@ -1,0 +1,73 @@
+#about-us {
+  background-color: #5c1ab7;
+}
+
+
+.image-text-wrapper {
+  height: 100%;
+}
+.image-container {
+}
+
+.image-container .layers-image {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 94.5%;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.text-container {
+}
+
+.about-contents-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding-right: 15px;
+}
+
+.about-title-tag .about-title {
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.about-info {
+  width: 75%;
+}
+
+.about-info .about-info-paragraph {
+  color: white;
+  font-weight: 100;
+}
+
+
+.about-cta .about-cta-button {
+  color: white;
+  font-weight: 300;
+  background-color: transparent;
+  border: white solid 2px;
+  border-radius: 5px;
+  height: 35px;
+  width: 95px;
+  padding: 10px 10px;
+  text-align: center;
+  line-height: 10px;
+}
+.about-cta .about-cta-button:hover {
+  background-color: #6e1fdd;
+}
+
+
+@media (min-width: 320px) {
+
+  .image-container .layers-image {
+    margin-left: 0;
+    margin-top: 45px;
+  }
+}
