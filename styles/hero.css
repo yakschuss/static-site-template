@@ -36,6 +36,13 @@
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+  .header-contents-container {
+    padding-top: 50%;
+  }
+
+}
+
 .header-hero .header-hero-title {
   color: white;
   font-weight: 700;
